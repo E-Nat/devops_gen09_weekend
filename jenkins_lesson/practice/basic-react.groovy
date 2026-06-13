@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/keoKAY/reactjs-devop8-template'
+                git 'https://github.com/E-Nat/reactjs-devop8-template-test.git'
                 sh 'ls -lrt '
                 sh "pwd"
                 sh """
